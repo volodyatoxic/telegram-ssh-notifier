@@ -23,7 +23,7 @@ print_banner() {
     echo -e ""
     echo -e "${BLUE}${BOLD}  ╔══════════════════════════════════════════╗${NC}"
     echo -e "${BLUE}${BOLD}  ║    🔔 Telegram SSH Login Notifier        ║${NC}"
-    echo -e "${BLUE}${BOLD}  ║       Installer v1.0                     ║${NC}"
+    echo -e "${BLUE}${BOLD}  ║       Installer v1.1║${NC}"
     echo -e "${BLUE}${BOLD}  ╚══════════════════════════════════════════╝${NC}"
     echo -e ""
 }
