@@ -22,7 +22,7 @@
 Запустите одну команду на сервере под root:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/volodyatoxic/telegram-ssh-notifier/main/install.sh | sudo bash
+sudo bash <(curl -sSL https://raw.githubusercontent.com/volodyatoxic/telegram-ssh-notifier/main/install.sh)
 ```
 
 Скрипт запросит:

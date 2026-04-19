@@ -52,7 +52,6 @@ echo -e "  ${YELLOW}${BOLD}Настройка параметров${NC}"
 echo -e "  ${DIM}──────────────────────────────────────────${NC}"
 echo ""
 
-exec < /dev/tty
 read -p "  🤖  Bot API Token: " TOKEN
 read -p "  👤  User ID(s) (через запятую): " USER_IDS
 read -p "  🖥️   Название сервера: " SERVER_NAME
