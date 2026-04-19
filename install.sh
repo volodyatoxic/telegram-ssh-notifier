@@ -52,9 +52,10 @@ echo -e "  ${YELLOW}${BOLD}Настройка параметров${NC}"
 echo -e "  ${DIM}──────────────────────────────────────────${NC}"
 echo ""
 
-read -p "  🤖  Bot API Token: " TOKEN </dev/tty
-read -p "  👤  User ID(s) (через запятую): " USER_IDS </dev/tty
-read -p "  🖥️   Название сервера: " SERVER_NAME </dev/tty
+exec < /dev/tty
+read -p "  🤖  Bot API Token: " TOKEN
+read -p "  👤  User ID(s) (через запятую): " USER_IDS
+read -p "  🖥️   Название сервера: " SERVER_NAME
 echo ""
 
 if [[ -z "$TOKEN" || -z "$USER_IDS" || -z "$SERVER_NAME" ]]; then
